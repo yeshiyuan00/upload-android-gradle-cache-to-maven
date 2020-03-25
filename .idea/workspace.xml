@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ade1d8-247c-420a-bb7a-3bf6f8bde46e" name="Default Changelist" comment="" />
+    <list default="true" id="b2ade1d8-247c-420a-bb7a-3bf6f8bde46e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +29,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZbH23A1U5L7e70iuQBUiVAZpze" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,6 +89,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="240" y="78" key="#Project_Structure" timestamp="1585123554883">
       <screen x="0" y="23" width="1280" height="777" />
@@ -90,22 +113,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="427" y="125" key="#com.intellij.ide.macro.MacrosDialog/0.23.1280.777@0.23.1280.777" timestamp="1585124531107" />
-    <state width="1238" height="200" key="GridCell.Tab.0.bottom" timestamp="1585124677582">
+    <state width="1238" height="273" key="GridCell.Tab.0.bottom" timestamp="1585125394438">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="200" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585124677582" />
-    <state width="1238" height="200" key="GridCell.Tab.0.center" timestamp="1585124677581">
+    <state width="1238" height="273" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585125394438" />
+    <state width="1238" height="273" key="GridCell.Tab.0.center" timestamp="1585125394437">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="200" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585124677581" />
-    <state width="1238" height="200" key="GridCell.Tab.0.left" timestamp="1585124677580">
+    <state width="1238" height="273" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585125394437" />
+    <state width="1238" height="273" key="GridCell.Tab.0.left" timestamp="1585125394436">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="200" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585124677580" />
-    <state width="1238" height="200" key="GridCell.Tab.0.right" timestamp="1585124677581">
+    <state width="1238" height="273" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585125394436" />
+    <state width="1238" height="273" key="GridCell.Tab.0.right" timestamp="1585125394437">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="200" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585124677581" />
+    <state width="1238" height="273" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585125394437" />
     <state width="1238" height="255" key="GridCell.Tab.1.bottom" timestamp="1585118052536">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
