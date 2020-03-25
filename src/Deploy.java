@@ -31,10 +31,12 @@ public class Deploy {
 //            "-DgeneratePom=true";
 
     public static final String BASE_CMD = "mvn " +
-            "deploy:deploy-file " +
+            "deploy:deploy-file "
+//            +
 //            "-Durl=http://127.0.0.1:8081/repository/test/ " +
 //            "-DrepositoryId=test " +
-            "-DgeneratePom=true ";
+//            "-DgeneratePom=true "
+            ;
 
     public static String DUrl = "http://127.0.0.1:8081/repository/test/";
     public static String DrepositoryId = "test";
@@ -153,6 +155,7 @@ public class Deploy {
             String artifactId = files[0].getParentFile().getParentFile().getName();
             String version = files[0].getParentFile().getName();
             File aar = null;
+            File pom = null;
             File jar = null;
             File source = null;
             File javadoc = null;
@@ -166,6 +169,8 @@ public class Deploy {
                             //skip
                         } else if (name.endsWith(".aar")) {
                             aar = file;
+                        } else if (name.endsWith(".pom")) {
+                            pom = file;
                         } else if (name.endsWith("-javadoc.jar")) {
                             javadoc = file;
                         } else if (name.endsWith("-sources.jar")) {
@@ -179,9 +184,9 @@ public class Deploy {
 
 
             if (aar != null) {
-                deploy(aar, jar, source, javadoc, groupId, artifactId, version);
+                deploy(aar, jar, source, pom, javadoc, groupId, artifactId, version);
             } else if (jar != null) {
-                deploy(aar, jar, source, javadoc, groupId, artifactId, version);
+                deploy(aar, jar, source, pom, javadoc, groupId, artifactId, version);
             }
         } else if (files[0].isDirectory()) {
             for (File file : files) {
@@ -354,7 +359,7 @@ public class Deploy {
     }
 
 
-    public static void deploy(final File aar, final File jar, final File source, final File javadoc,
+    public static void deploy(final File aar, final File jar, final File source, final File pom, final File javadoc,
                               String groupId, String artifactId, String version) {
         EXECUTOR_SERVICE.execute(new Runnable() {
             @Override
@@ -379,6 +384,13 @@ public class Deploy {
                 }
                 if (javadoc != null) {
                     cmd.append(" -Djavadoc=").append(javadoc.getAbsolutePath());
+                }
+
+                if (pom != null) {
+                    cmd.append(" -DpomFile=").append(pom.getAbsolutePath());
+                    cmd.append(" -DgeneratePom=false ");
+                } else {
+                    cmd.append(" -DgeneratePom=true ");
                 }
 
                 try {
