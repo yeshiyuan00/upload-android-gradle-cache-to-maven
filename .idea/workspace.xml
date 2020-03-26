@@ -8,13 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2ade1d8-247c-420a-bb7a-3bf6f8bde46e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Deploy_jar/Deploy.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Deploy_jar/Deploy.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Deploy/Deploy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Deploy/Deploy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Deploy/Deploy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Deploy/Deploy$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Deploy/Deploy$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Deploy/Deploy$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Deploy/Deploy$MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Deploy/Deploy$MyFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Deploy/Deploy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Deploy/Deploy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deploy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deploy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
