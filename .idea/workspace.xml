@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2ade1d8-247c-420a-bb7a-3bf6f8bde46e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deploy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deploy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">
     <configuration name="Deploy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -93,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -116,38 +119,46 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="100" y="123" width="1080" height="577" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1585126224583" />
-    <state width="1238" height="273" key="GridCell.Tab.0.bottom" timestamp="1585125394438">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1585229258552">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="273" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585125394438" />
-    <state width="1238" height="273" key="GridCell.Tab.0.center" timestamp="1585125394437">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585229258552" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1585229258550">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="273" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585125394437" />
-    <state width="1238" height="273" key="GridCell.Tab.0.left" timestamp="1585125394436">
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585229258550" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1585229258548">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="273" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585125394436" />
-    <state width="1238" height="273" key="GridCell.Tab.0.right" timestamp="1585125394437">
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585229258548" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1585229258551">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="273" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585125394437" />
-    <state width="1238" height="255" key="GridCell.Tab.1.bottom" timestamp="1585118052536">
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585229258551" />
+    <state width="1238" height="255" key="GridCell.Tab.1.bottom" timestamp="1585229258558">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585118052536" />
-    <state width="1238" height="255" key="GridCell.Tab.1.center" timestamp="1585118052535">
+    <state width="1238" height="255" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585229258558" />
+    <state width="1238" height="255" key="GridCell.Tab.1.center" timestamp="1585229258553">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1585118052535" />
-    <state width="1238" height="255" key="GridCell.Tab.1.left" timestamp="1585118052535">
+    <state width="1238" height="255" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1585229258553" />
+    <state width="1238" height="255" key="GridCell.Tab.1.left" timestamp="1585229258552">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1585118052535" />
-    <state width="1238" height="255" key="GridCell.Tab.1.right" timestamp="1585118052535">
+    <state width="1238" height="255" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1585229258552" />
+    <state width="1238" height="255" key="GridCell.Tab.1.right" timestamp="1585229258554">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1585118052535" />
+    <state width="1238" height="255" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1585229258554" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1585207263309">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1585207263309" />
+    <state x="294" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1585808446855">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="294" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1585808446855" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Deploy$Deploy.ic" NAME="Deploy Coverage Results" MODIFIED="1585124478729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

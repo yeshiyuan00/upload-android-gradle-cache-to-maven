@@ -187,6 +187,8 @@ public class Deploy {
                 deploy(aar, jar, source, pom, javadoc, groupId, artifactId, version);
             } else if (jar != null) {
                 deploy(aar, jar, source, pom, javadoc, groupId, artifactId, version);
+            } else if (pom != null) {
+                deployPom(pom, groupId, artifactId, version);
             }
         } else if (files[0].isDirectory()) {
             for (File file : files) {
@@ -272,11 +274,18 @@ public class Deploy {
         return false;
     }
 
-    public static void deployPom(final File pom) {
+    public static void deployPom(final File pom, String groupId, String artifactId, String version) {
         EXECUTOR_SERVICE.execute(new Runnable() {
             @Override
             public void run() {
                 StringBuffer cmd = new StringBuffer(BASE_CMD);
+
+                cmd.append(" -DgroupId=").append(groupId);
+                cmd.append(" -DartifactId=").append(artifactId);
+                cmd.append(" -Dversion=").append(version);
+                cmd.append(" -Durl=").append(DUrl);
+                cmd.append(" -DrepositoryId=").append(DrepositoryId);
+
                 cmd.append(" -DpomFile=").append(pom.getName());
                 cmd.append(" -Dfile=").append(pom.getName());
                 System.out.println("pomPath=" + pom.getAbsolutePath());
